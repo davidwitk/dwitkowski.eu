@@ -1,7 +1,8 @@
 ---
-title: "Homepage"
+title: ""
 date: 2023-03-25T21:42:10+01:00
 draft: false
+showTitle: false
 ---
 
-So nice to see you
+Portfolio of data-related projects
