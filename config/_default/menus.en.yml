@@ -11,22 +11,26 @@
 # ordered by weight from lowest to highest.
 
 main:
-  - name: Blog
-    pageRef: posts
-    weight: 10
-
-  - name: Categories
-    pageRef: categories
+#  - name: Blog
+#    pageRef: posts
+#    weight: 10
+  
+  - name: About
+    pageRef: about
     weight: 20
 
-  - name: Tags
-    pageRef: tags
-    weight: 30
-
-  - identifier: search
-    weight: 99
-    params:
-      action: search
+#  - name: Categories
+#    pageRef: categories
+#    weight: 20
+#
+#  - name: Tags
+#    pageRef: tags
+#    weight: 30
+#
+#  - identifier: search
+#    weight: 99
+#    params:
+#      action: search
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
