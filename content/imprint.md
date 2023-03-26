@@ -1,6 +1,6 @@
 ---
 title: "Imprint"
-date: 2023-03-25T21:42:10+01:00
+date: 2019-03-25
 draft: false
 showDate: false
 showReadingTime: false
