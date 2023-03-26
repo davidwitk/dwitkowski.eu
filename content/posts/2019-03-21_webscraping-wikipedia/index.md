@@ -4,7 +4,7 @@ date: 2019-03-21
 draft: false
 ---
 
-I tried out the rvest package by scraping a Wikipedia table about [communities in the Département "Bas-Rhin" in the region of Alsace in France](https://fr.wikipedia.org/wiki/Liste_des_communes_du_Bas-Rhin). First thing to do is to load the necessary packages: rvest for scraping the website, tidyverse to clean the scraped data.
+I tried out the rvest package by scraping a Wikipedia table about [communities in the Département "Bas-Rhin" in the region of Alsace in France](https://fr.wikipedia.org/wiki/Liste_des_communes_du_Bas-Rhin). First thing to do is to load the necessary packages: `rvest` for scraping the website, `tidyverse` to clean the scraped data.
 
 ```r
 library(rvest)
@@ -137,7 +137,7 @@ bas_rhin <- bas_rhin %>%
 
 ```
 
-A glimpse on the clean data set (which can be downloaded [here]({{ site.url }}/assets/data/bas_rhin.csv)):
+A glimpse on the clean data set (which can be downloaded [here](/data/bas_rhin.csv)):
 
 ```r
 ## # A tibble: 514 x 11

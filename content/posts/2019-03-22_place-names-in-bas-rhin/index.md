@@ -6,7 +6,7 @@ draft: false
 
 Names of places in Alsace are sometimes described as unpronounceable for French people. Most names have a Germanic root and sound pretty exotic for French speakers. I recommend taking a regional train and listening to the voice announcing the Alsatian stations with a very French pronunciation, quite a funny experience. A recent trip on the train made me think about the similarity of suffixes in Alsatian place names and I was interested to know how many places actually end on "-heim", "-willer" and so on.
 
-This post uses data from a scraped Wikipedia table from [another post]({% post_url 2019-03-21-webscraping_wikipedia %}). It contains information on communes in the département Bas-Rhin. Here, we only need the names of the places. We start by loading packages, data and pulling out the column we are interested in.
+This post uses data from a scraped Wikipedia table from [another post]({{< ref "/posts/2019-03-21_webscraping-wikipedia/index.md" >}}). It contains information on communes in the département Bas-Rhin. Here, we only need the names of the places. We start by loading packages, data and pulling out the column we are interested in.
 
 ```r
 # Load packages
@@ -30,7 +30,7 @@ bas_rhin_noms <- str_split(bas_rhin_noms, "-") %>%
 ```
 
 As we are interested in the suffixes of the place names, we need a method to split the strings
-into syllables. We will use the method hyphen() from the [sylly](https://github.com/unDocUMeantIt/sylly) package that
+into syllables. We will use the method `hyphen()` from the [sylly](https://github.com/unDocUMeantIt/sylly) package that
 takes vectors of character strings and applies an hyphenation algorithm to each word
 (the algorithm was originally developed for automatic word hyphenation in LaTeX).
 The algorithm needs a set of hyphenation patterns which are provided in dictionaries
@@ -160,9 +160,7 @@ ggplot(data = filter(suffixes, n > 5)) +
   labs(caption = "Only suffixes with more than 5 occurrences are displayed.")
 ```
 
-{:refdef: style="text-align: center;"}
-![suffixes](../assets/images/suffixes.png)
-{:refdef}
+![suffixes](/images/suffixes.png)
 
 This analysis was limited to places in the département Bas-Rhin, but I might extend it to the second Alsatian département Haut-Rhin in the near future.
 

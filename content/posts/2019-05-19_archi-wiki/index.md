@@ -12,6 +12,6 @@ As a remedy, the addresses were geolocalised with the help of the official addre
 
 This project is still being developed and the map underneath is just a first impression of how the map will look like in the end. By joining the various data sources, there is a considerate amount of data being lost (from 10,190 down to 3,024 addresses); there is in particular need for better harmonizing the data on addresses from Archi-Wiki and the official register.
 
-<iframe style="width:100%;" height="600" src="{{site.baseurl}}/assets/leaflet/map_stras" frameborder="0" allowfullscreen></iframe>
+<iframe style="width:100%;" height="600" src="/leaflet/map_stras.html" frameborder="0" allowfullscreen></iframe>
 
 Get the preliminary scripts [here](https://github.com/chodera/chodera.github.io/tree/master/assets/projects/9_archi-wiki).

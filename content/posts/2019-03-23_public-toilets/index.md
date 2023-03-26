@@ -91,7 +91,7 @@ ggmap(stras_map, extent = "device") +
 
 Here is the final result:
 
-![toilet_map](../assets/images/toilettes.png)
+![toilet_map](/images/toilettes.png)
 
 PS: Public toilets in France are **free**.
 

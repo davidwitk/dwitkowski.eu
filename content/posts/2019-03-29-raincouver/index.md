@@ -6,7 +6,7 @@ draft: false
 
 The following code stems from a project I prepared while studying in Vancouver. As it was very, very rainy, I decided to analyze some weather data, trying to answer if there was reason to be optimistic for the months to come.
 
-The data is official [governmental weather data](http://climate.weather.gc.ca), measured at the weather station at the international airport in the year 2016, and contains information about the weather in Vancouver in 2016 (date, temperature, rainfall, snowfall, direction of the wind, ...). It can be downloaded here [here]({{ site.url }}/assets/data/daily_weather_2016.csv).
+The data is official [governmental weather data](http://climate.weather.gc.ca), measured at the weather station at the international airport in the year 2016, and contains information about the weather in Vancouver in 2016 (date, temperature, rainfall, snowfall, direction of the wind, ...). It can be downloaded here [here](/data/daily_weather_2016.csv).
 
 The idea was to plot monthly rainfall. From the information available, all that I needed to solve the problem was the rainfall (mm) and the month.
 
@@ -297,8 +297,6 @@ summary()
 ```
 Here is the final result. I lived in Vancouver from January until April, so indeed, it got better in the end. Based on the plot, it would have gotten even better afterwards. Still, I have never lived in a place where it rains so much as in Vancouver, BC.
 
-{:refdef: style="text-align: center;"}
-![Plot]({{ site.url }}/assets/images/rain_vancouver.png)
-{:refdef}
+![Plot](/images/rain_vancouver.png)
 
 Get the full code [here](https://github.com/chodera/chodera.github.io/blob/master/assets/projects/5_raincouver/project_witkowski.ipynb).
