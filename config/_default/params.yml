@@ -20,7 +20,7 @@ header:
   showTitle: true
 
 footer:
-  showCopyright: false
+  showCopyright: true
   showThemeAttribution: false
   showAppearanceSwitcher: true
   showScrollToTop: true
