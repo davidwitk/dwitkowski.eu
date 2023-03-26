@@ -22,7 +22,7 @@ author:
   #headline: I'm only human
   #bio: A little bit about you
   links:
-    - email: 'mailto:hello@your_domain.com'
+    - email: 'mailto:david.witkowski@posteo.net'
   #  - link: 'https://link-to-some-website.com/'
   #  - amazon: 'https://www.amazon.com/hz/wishlist/ls/wishlist-id'
   #  - apple: 'https://www.apple.com'
@@ -34,7 +34,7 @@ author:
   #  - facebook: 'https://facebook.com/username'
   #  - flickr: 'https://www.flickr.com/photos/username/'
   #  - foursquare: 'https://foursquare.com/username'
-    - github: 'https://github.com/username'
+    - github: 'https://github.com/chodera'
   #  - gitlab: 'https://gitlab.com/username'
   #  - google: 'https://www.google.com/'
   #  - hashnode: 'https://username.hashnode.dev'
@@ -42,7 +42,7 @@ author:
   #  - keybase: 'https://keybase.io/username'
   #  - kickstarter: 'https://www.kickstarter.com/profile/username'
   #  - lastfm: 'https://lastfm.com/user/username'
-    - linkedin: 'https://linkedin.com/in/username'
+    - linkedin: 'https://www.linkedin.com/in/david-witkowski/'
   #  - mastodon: 'https://mastodon.instance/@username'
   #  - medium: 'https://medium.com/username'
   #  - microsoft: 'https://www.microsoft.com/'
