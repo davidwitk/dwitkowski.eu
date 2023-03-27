@@ -138,7 +138,7 @@ A clear downward trend is to be noticed. In 1992, there were 9 cinemas in the ci
 
 The following graph visualizes different additional indicators, including information on the number of entries, screens, movies shown, revenue, and occupancy rate. A striking impact on the evolution of cinemas in Strasbourg had the opening of the first (and until today the only) multiplex cinema in 1999 (cf. the red vertical line). All at once, the number of seats nearly doubled. Consequently, there were more screens available and more movies shown from then on. However, the number of entries did not increase as much. Nevertheless, it reached its peak in 2011 with around 2.5 millions entries and is slightly decreasing since then. Revenues follow this overall trend.
 
-<p><iframe style="width:80%;"  height="500" src="https://chodera.shinyapps.io/cinemas-app/" frameborder="0" allowfullscreen></iframe></p>
+<p class="center"><iframe style="width:80%;"  height="500" src="https://chodera.shinyapps.io/cinemas-app/" frameborder="0" allowfullscreen></iframe></p>
 
 The occupancy rate is defined as the ratio between the number of seats entered during the year and the product between the number of seats and the number of sessions. It enables to evaluate the "filling" of the rooms. The corresponding graph shows a significant drop in the occupancy rate after the multiplex cinema opened which is related to the increased offer of seats. However, in the 2000s, there was a slight increase in the filling of cinemas.
 

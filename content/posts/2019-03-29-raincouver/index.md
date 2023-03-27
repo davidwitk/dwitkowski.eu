@@ -297,6 +297,6 @@ summary()
 ```
 Here is the final result. I lived in Vancouver from January until April, so indeed, it got better in the end. Based on the plot, it would have gotten even better afterwards. Still, I have never lived in a place where it rains so much as in Vancouver, BC.
 
-![Plot](/images/rain_vancouver.png)
+![Plot](/images/rain_vancouver.jpg)
 
 Get the full code [here](https://github.com/chodera/chodera.github.io/blob/master/assets/projects/5_raincouver/project_witkowski.ipynb).

@@ -10,7 +10,7 @@ Data for the analysis came from several sources but the main source on individua
 
 The interactive maps below indicate that the extent of political participation varies substantively across European regions and across different forms of political participation (illustrated are voting, attending demonstrations, working for a political party or action group and boycotting products). When comparing the different forms of participation, it is obvious that voting is the most widely performed form of participation. While there is no clear pattern, Eastern European countries tend to have lower rates of participation.
 
-<p><iframe style="width:80%;"  height="1100" src="https://chodera.shinyapps.io/unequal-app/" frameborder="0" allowfullscreen></iframe></p>
+<p class="center"><iframe style="width:80%;"  height="1100" src="https://chodera.shinyapps.io/unequal-app/" frameborder="0" allowfullscreen></iframe></p>
 
 In my thesis, I further investigate these patterns of inequalities in political participation by considering differing levels of income inequality as potential explanation and conducting multilevel logistic regression analyses.
 

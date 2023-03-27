@@ -967,7 +967,7 @@ plt.tight_layout()
 sns.despine(top=True, right=True, left=True, bottom=True);
 ```
 
-![attacks_time](/images/attacks_time.png)
+![attacks_time](/images/attacks_time.jpg)
 
 The diagram shows that the number of attacks per month increased in 2015 and reached its peak in January 2016 with 645 attacks. Since then, it steadily decreased but remained above a level of more than 100 attacks until September 2018. Afterwards it dropped significantly to less than 10 attacks per month. This sharp decline seems too strong to capture reality. It might be related to the fact that the main source are government reports which, by their nature, document events in the past and are not published regularly. As such, the numbers for the months after September 2018 might still increase. Also, the sharp decline might result from the "Chronik" being maintained less intensively but that is just a guess.
 Interestingly, the number of attacks follows closely the number of refugees arriving in Germany. It peaked a couple of months later in August 2016 and sharply decreased since then, staying on a relative stable level.
@@ -1135,7 +1135,7 @@ ax.tick_params(left=False)
 sns.despine(top=True, right=True, left=True, bottom=True);
 ```
 
-![attacks_bar_absolute](/images/attacks_bar_absolute.png)
+![attacks_bar_absolute](/images/attacks_bar_absolute.jpg)
 
 Most of the attacks occurred in Sachsen, followed by Bayern and Nordrhein-Westfalen. As the latter two have much larger population sizes, it is important to standardize by the number of inhabitants when comparing the number of attacks.
 
@@ -1176,7 +1176,7 @@ ax.tick_params(left=False)
 sns.despine(top=True, right=True, left=True, bottom=True);
 ```
 
-![attacks_bar_std](/images/attacks_bar_std.png)
+![attacks_bar_std](/images/attacks_bar_std.jpg)
 
 This diagram shows a striking pattern: Relative to the population size, the attacks occur more often in Eastern Germany than Western Germany.
 
@@ -1266,7 +1266,7 @@ ax.tick_params(axis=u'both', which=u'both',length=0)
 sns.despine(top=True, right=True, left=True, bottom=True);
 ```
 
-![attacks_bar_category](/images/attacks_bar_category.png)
+![attacks_bar_category](/images/attacks_bar_category.jpg)
 
 Actually, most of the events are not assigned to a category but are treated as "other attacks".
 

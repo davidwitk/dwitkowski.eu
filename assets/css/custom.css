@@ -16,9 +16,9 @@ html {
   max-width: 85ch;
 }
 
-.img-center {
+.center {
   display: block;
-  margin-left: 70px;
+  margin-left: 5%;
   margin-right: auto;
   width: 100%;
 }
